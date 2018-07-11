@@ -18,5 +18,7 @@ Please see the associated file for a more elaborate description.  I don't claim 
 
 After every trade, the latest Git commit hash will be anchored to Bitcoin using Tierion.  This ensures that every commit is timestamped by Bitcoin and could not have been created at a later time.  The timestamping precision is limited by how often Bitcoin blocks are produced, and how often Tierion submits a transaction.  The service generally submits many transactions every day.
 
+## Digitally Signed
 
+Every trade will be digitally signed with my private key.  This ensures that 2 different repositories signed by my key would expose an "Innumeracy" stock picking scam described here: https://ask.metafilter.com/216295/Is-this-famous-investment-scam-real-or-fiction
 
