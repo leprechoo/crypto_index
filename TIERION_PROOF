@@ -1,0 +1,39 @@
+POST
+http://207.148.5.31/hashes
+{
+  "hashes": [
+    "3fa1acf43b0e67f692a56110efb34adf1b8287ea"
+  ]
+}
+
+RESPONSE
+{
+    "meta": {
+        "submitted_at": "2018-07-11T02:59:41Z",
+        "processing_hints": {
+            "cal": "2018-07-11T02:59:56Z",
+            "btc": "2018-07-11T04:00:41Z"
+        }
+    },
+    "hashes": [
+        {
+            "hash_id_node": "74f61a00-84b6-11e8-82f3-01462d27973e",
+            "hash": "3fa1acf43b0e67f692a56110efb34adf1b8287ea"
+        }
+    ]
+}
+
+
+GET
+http://207.148.5.31/proofs/74f61a00-84b6-11e8-82f3-01462d27973e
+
+RESPONSE
+[
+    {
+        "hash_id_node": "74f61a00-84b6-11e8-82f3-01462d27973e",
+        "proof": "eJyNUztuVEEQ5AgcgoCA9fZ0z/dFlrgCkZNVT08P+ySzu9r3+IWGhBAfATAyIBIkRMg9VuIwzFsbAwYkgkl6pqqrprtevDuU9WrUJ+PX5Thuhm4+f0x9OVhv789lyf1qs+5X4/wRnY1PN/rh7lXpbMnDcnebKhuWaimD+lB9QnbeGNCayXKpJkeMQfnj9HzRl8VqXXR3K9jqDQPMos1+ZozGWcRKMzDWY8GQAumXPWR4mB/046gXyAWPnxFMnEFoqHuAnUudNUdX9LLeTvQhOgf+V/pkozR6Rxg1ZnR8nX5C/p3eHb3LW17JUofTZ2+POevxJ+HjxVRabxcXd2/Wm+HbjZsnr453d/ZK+9L9j8uT1+vN+bDkGTq/B+91TOD/8HAd/HLVD2PXHhgMIVno2kAiMbOP0dgUwQorFbQQqZIp0apUlFIDI9hIMRO3gdmi6gKB+HYcSzY1FcgJuBpfoxhFUYxeSDAHMRSxlUyhgGixJPSUwFvi+rvA7e7QkzgAJ7aSJkxVvFowJQmEog5QY/HNcOvHCZxCKSmVmkx0aFxO4brjQ1RbghIGQWdVQckn1SJZYsoheAMhNTGJkaoXkMxg3VSMbupr/1CYEAtZoGYEjYRqM3tDVYhD22PxqYZQVTIBh9K+ugrUID5WwylzdNcVJuOTt95djSVRZ7ofYeODnymbQte1xeouEXs5GgjJZWMJHaTScpUDxYDAtn19aZvgfbKobZbUBsBNpg1FsMQKkTP+Juf8YmWH0+f7OL9pzd5fbnFfzi/bnj3c9sPp7uBfEucNpavC2/klYD4l6TvFo2Gj",
+        "anchors_complete": [
+            "cal"
+        ]
+    }
+]
